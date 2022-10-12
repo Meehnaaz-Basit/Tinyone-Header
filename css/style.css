@@ -1,0 +1,47 @@
+/* == common css starts == */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+  font-family:'PT Sans', sans-serif; 
+  font-size: 1.6rem;
+  font-weight: 400;
+  
+}
+/* == common css ends == */
+/* header */
+header{
+  background-color: #fcdb00;
+  padding: 1rem 0;
+
+}
+.custom-navbar{
+
+}
+.custom-logo{
+padding: 2rem 0;
+}
+.custom-menu{
+  text-transform: capitalize;
+}
+.custom-menu ul li a{
+  font-family:'PT Sans', sans-serif; 
+  font-size: 2rem;
+  font-weight: 700;
+  color: #010101;
+  margin: 0 4rem !important;
+  transition: .3s;
+}
+.custom-menu ul li:last-child a{
+margin-right: 0!important;
+}
+.custom-menu ul li a:hover{
+color: white !important;
+transition: .3s;
+}
+/* == header end */

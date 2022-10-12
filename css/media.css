@@ -1,0 +1,70 @@
+/* 
+  ##Device = Desktops,xxl
+
+*/
+
+@media (min-width: 1400px) {
+  /* CSS */
+}
+
+/* 
+        ##Device = Laptops, Desktops,xl
+        
+      */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* CSS */
+}
+
+/* 
+        ##Device = lg
+        
+      */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS */
+}
+
+/* 
+        ##Device = Tablets, md
+        
+      */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* css */
+  /* ======== header starts ====== */
+  .custom-menu ul li a {
+    margin: 0 1rem !important;
+    padding-bottom: 1rem;
+    
+   }
+  /* ======== header ends ====== */
+
+}
+/* 
+      ##Device = Mobiles (Landscape),sm
+      
+    */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS */
+}
+/* 
+      ##Device = Most of the Smartphones Mobiles (Portrait),es,col
+    */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  /* CSS */
+  /* ======== header starts ====== */
+  header{
+    padding: 0rem 1rem;
+  
+  }
+  .custom-menu ul li a {
+    font-size: 1.6rem;
+    margin: 0 1rem !important;
+    padding-bottom: 1rem;
+   }
+  /* ======== header ends ====== */
+
+}
+
